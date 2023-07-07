@@ -1,7 +1,8 @@
 # 3D-CityModel-ConversionTools-for-ArcGIS-v2
 # 概要
 「3D 都市モデルデータ変換ツール v2.0 for ArcGIS」 は、[PLATEAU](https://www.mlit.go.jp/plateau/) で整備し、G空間情報センターで公開している[3D都市モデル](https://www.geospatial.jp/ckan/dataset/plateau)（CityGML）のデータを、ArcGIS で利用可能な[ファイル ジオデータベース](https://pro.arcgis.com/ja/pro-app/latest/help/data/geodatabases/manage-file-gdb/file-geodatabases.htm) へ変換するツールです。  
-本ツールで変換可能なデータは、[製品仕様書 第2.3版（3D 都市モデル標準製品仕様書 series No.01（2022/09/23 2.3 版））](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_doc_0001_ver02.pdf) に対応した 3D都市モデルです。[3D 都市モデル標準製品仕様書 series No.01（2021/03/26 1.0.0版）](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_doc_0001_ver01.pdf)のデータに対応した変換ツールは [こちら](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS) をご利用ください。
+本ツールで変換可能なデータは、[製品仕様書 第2.3版（3D 都市モデル標準製品仕様書 series No.01（2022/09/23 2.3 版））](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_doc_0001_ver02.pdf) に対応した 3D都市モデルです。[3D 都市モデル標準製品仕様書 series No.01（2021/03/26 1.0.0版）](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_doc_0001_ver01.pdf)のデータに対応した変換ツールは [こちら](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS) をご利用ください。  
+本ツールは、国土交通省都市局監修のもと、ESRIジャパン株式会社にて作成・開発したものです。
 
   
 ### リリース履歴
