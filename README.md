@@ -64,7 +64,7 @@
 ||伝統的建造物群保存地区|〇|lod1_ConservationZoneForClustersOfTraditionalStructures|
 ||航空機騒音障害防止地区又は航空機騒音障害防止特別地区|〇|lod1_AircraftNoiseControlZone|
 
-※ 変換されるファイル ジオデータベースの詳細な定義は、[3D 都市モデルデータ変換ツール v2.0 for ArcGIS 操作マニュアルの付属資料](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS-v2/blob/main/Doc/%EF%BC%93D%20%E9%83%BD%E5%B8%82%E3%83%A2%E3%83%87%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB%20v2.0%20for%20ArcGIS%20%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%201.0.0%20%E7%89%88%EF%BC%88%E8%A3%BD%E5%93%81%E4%BB%95%E6%A7%98%E6%9B%B8%20%E7%AC%AC%202.3%20%E7%89%88%E5%AF%BE%E5%BF%9C%EF%BC%89_%E4%BB%98%E5%B1%9E%E8%B3%87%E6%96%99.xlsx)をご参照ください。
+※ 変換されるファイル ジオデータベースの詳細な定義は、[3D 都市モデルデータ変換ツール v2.0 for ArcGIS 操作マニュアルの付属資料](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS-v2/blob/main/Doc/%EF%BC%93D%20%E9%83%BD%E5%B8%82%E3%83%A2%E3%83%87%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB%20v2.0%20for%20ArcGIS%20%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%202.0.0%20%E7%89%88%EF%BC%88%E8%A3%BD%E5%93%81%E4%BB%95%E6%A7%98%E6%9B%B8%20%E7%AC%AC%202.3%20%E7%89%88%E5%AF%BE%E5%BF%9C%EF%BC%89_%E4%BB%98%E5%B1%9E%E8%B3%87%E6%96%99.xlsx)をご参照ください。
 
 ## 動作環境
 本ツールを実行するには、バージョン 3.1 以上の ArcGIS Pro と ArcGIS Data Interoperability エクステンション をインストールし（ArcGIS Pro とArcGIS Data Interoperability のインストーラーは、それぞれ別々に提供されております。My Esri からそれぞれのインストーラーを入手いただき、インストールして頂く必要があります）、ライセンスを有効化している必要があります。  
@@ -73,9 +73,9 @@
 * [Data Interoperability エクステンションのインストール](https://pro.arcgis.com/ja/pro-app/latest/help/data/data-interoperability/install-the-data-interoperability-extension.htm)  
 
 ### 利用方法
-本ツールを使って変換するまでには、大まかに次のステップが必要です。操作方法の詳細は[3D 都市モデルデータ変換ツール v2.0 for ArcGIS 操作マニュアル](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS-v2/blob/main/Doc/%EF%BC%93D%20%E9%83%BD%E5%B8%82%E3%83%A2%E3%83%87%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB%20v2.0%20for%20ArcGIS%20%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%201.0.0%20%E7%89%88%EF%BC%88%E8%A3%BD%E5%93%81%E4%BB%95%E6%A7%98%E6%9B%B8%20%E7%AC%AC%202.3%20%E7%89%88%E5%AF%BE%E5%BF%9C%EF%BC%89.pdf) をご参照ください。
+本ツールを使って変換するまでには、大まかに次のステップが必要です。操作方法の詳細は[3D 都市モデルデータ変換ツール v2.0 for ArcGIS 操作マニュアル](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS-v2/blob/main/Doc/%EF%BC%93D%20%E9%83%BD%E5%B8%82%E3%83%A2%E3%83%87%E3%83%AB%E3%83%87%E3%83%BC%E3%82%BF%E5%A4%89%E6%8F%9B%E3%83%84%E3%83%BC%E3%83%AB%20v2.0%20for%20ArcGIS%20%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%202.0.0%20%E7%89%88%EF%BC%88%E8%A3%BD%E5%93%81%E4%BB%95%E6%A7%98%E6%9B%B8%20%E7%AC%AC%202.3%20%E7%89%88%E5%AF%BE%E5%BF%9C%EF%BC%89.pdf) をご参照ください。
 
-* [3D 都市モデルデータ変換ツール v2.0 for ArcGIS をダウンロード](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS-v2/releases/download/v1.0.0/3D_CityModel_ConversionTools_v2_v100.zip)します。
+* [3D 都市モデルデータ変換ツール v2.0 for ArcGIS をダウンロード](https://github.com/EsriJapan/3D-CityModel-ConversionTools-for-ArcGIS-v2/releases/download/v2.0.0/3D_CityModel_ConversionTools_v2.zip)します。
 * ダウンロードした ZIP ファイルを、任意の場所に解凍します。このとき、ツールのフルパスにマルチバイト文字が含まれないようにしてください。
 * ArcGIS Pro を起動し、フォルダー接続の追加 で、解凍したフォルダーを指定します。
 * G空間情報センターから、必要な 3D 都市モデル（標準製品仕様書 第2.3版に基づいて作成された CityGML）のデータをダウンロードし、解凍しておきます。このとき、データのフルパスにマルチバイト文字が含まれないようにしてください。
